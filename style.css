@@ -1,0 +1,96 @@
+.wrapper
+{
+    margin: 120px auto;
+    max-width: 400px;
+    width:100%;
+    background-color:white;
+    border-radius: 5px;
+    padding: 25px;  
+}
+body
+{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(217,113,134,1) 70%);
+    font-size: 20px;
+    font-weight: 800;
+}
+.wrapper header
+{
+    font-size: 30px;
+    font-weight: 600;
+}
+input
+{
+    display: none;
+}
+ .inputField
+ {
+     display: flex;
+     height: 45px;
+     width: 100%;
+     margin: 20px 0;
+     margin-left: 20px;
+ }
+ .inputField button
+ {
+    width: 60px;
+    height: 100%;
+    background: purple;
+    color: white;
+    border: none;
+    margin-left: 2px;
+ }
+
+ li
+ {
+    height: 45px;
+    line-height: 45px;
+    margin-bottom: 8px;
+    background-color: whitesmoke;
+    list-style: none;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+ }
+ li span 
+ {
+     position: absolute;
+    right: -45px;
+    background-color: red;
+    color:white;
+    width: 45px;
+    text-align: center;
+    transition: all 0.3s ease;
+ }
+ li:hover span
+ {
+  right: 0px;
+ }
+.footer
+ {
+     display: flex;
+     justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+ }
+ .footer button
+ {
+     font-size: 16px;
+     outline: none;
+     border: none;
+     color : white;
+     background-color: purple;
+     padding: 6px 10px;
+     margin-left: 2px;
+     border-radius: 3px;
+ }
+ ul
+ {
+    max-height: 250px;
+    overflow-y: auto;  
+ }
+ .completed
+ {
+  text-decoration: line-through;   
+  color: gray;
+ }
