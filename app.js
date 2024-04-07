@@ -42,3 +42,4 @@ $('#clear').click(function(){
 })
 var a=document.getElementById("pend");
 var c=0;
+//Added a comment
